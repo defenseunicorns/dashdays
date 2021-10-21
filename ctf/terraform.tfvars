@@ -1,5 +1,5 @@
 region = "us-east-2"
-cluster_name = "dashdays-uiux"
+cluster_name = "dashdays-ctf"
 kubeconfig_bucket = "defenseunicorns-dashdays-bucket"
 map_users = []
 map_roles = [

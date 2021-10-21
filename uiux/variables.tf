@@ -1,3 +1,7 @@
+variable "region" {
+  type = string
+}
+
 variable "cluster_name" {
   type = string
 }
@@ -7,6 +11,15 @@ variable "map_users" {
     username = string
     groups   = list(string)
   }))
+}
+variable "map_roles" {
+  description = "Additional IAM roles to add to the aws-auth configmap."
+  type = list(object({
+    rolearn  = string
+    username = string
+    groups   = list(string)
+  }))
+  default = []
 }
 variable "kubeconfig_bucket" {
   type = string

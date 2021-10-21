@@ -4,7 +4,7 @@ terraform {
   backend "s3" {
     region         = "us-east-1"
     bucket         = "defenseunicorns-dashdays-bucket"
-    key            = "helmchart/terraform.tfstate"
+    key            = "ctf/terraform.tfstate"
     dynamodb_table = "defenseunicorns-dashdays-bucket-lock"
     encrypt        = "true"
   }

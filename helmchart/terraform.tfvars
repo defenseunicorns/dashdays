@@ -1,3 +1,4 @@
+region = "us-east-2"
 cluster_name = "dashdays-helmchart"
 kubeconfig_bucket = "defenseunicorns-dashdays-bucket"
 map_users = []
