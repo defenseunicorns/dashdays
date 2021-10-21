@@ -1,0 +1,7 @@
+creation_rules:
+  - path_regex: ctf/bigbang/values.yaml
+    kms: 'arn:aws:kms:us-east-1:950698127059:key/44a0a5b7-8de3-4720-aa7f-d3775e5598eb'
+  - path_regex: helmchart/bigbang/values.yaml
+    kms: 'arn:aws:kms:us-east-1:950698127059:key/44a0a5b7-8de3-4720-aa7f-d3775e5598eb'
+  - path_regex: uiux/bigbang/values.yaml
+    kms: 'arn:aws:kms:us-east-1:950698127059:key/44a0a5b7-8de3-4720-aa7f-d3775e5598eb'
